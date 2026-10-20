@@ -1,0 +1,53 @@
+--- a/node_modules/@storybook/react-native-ui/src/Tree.tsx	2026-10-20 08:50:06
++++ b/node_modules/@storybook/react-native-ui/src/Tree.tsx	2026-10-20 08:50:06
+@@ -187,7 +187,7 @@
+   borderRadius: 4,
+   gap: 6,
+   alignItems: 'center',
+-  cursor: 'pointer',
++  cursor: 'auto',
+   height: 28,
+ }));
+ 
+--- a/node_modules/@storybook/react-native-ui/src/TreeNode.tsx	2026-10-20 08:50:06
++++ b/node_modules/@storybook/react-native-ui/src/TreeNode.tsx	2026-10-20 08:50:06
+@@ -29,7 +29,7 @@
+ }>(({ depth = 0, isExpandable = false, theme }) => ({
+   width: '100%',
+   border: 'none',
+-  cursor: 'pointer',
++  cursor: 'auto',
+   display: 'flex',
+   flexDirection: 'row',
+   alignItems: 'flex-start',
+@@ -53,7 +53,7 @@
+ const LeafNode = styled.TouchableOpacity<{ depth?: number; selected?: boolean }>(
+   ({ depth = 0, selected, theme }) => ({
+     alignSelf: 'flex-start',
+-    cursor: 'pointer',
++    cursor: 'auto',
+     color: 'inherit',
+     display: 'flex',
+     gap: 6,
+--- a/node_modules/@storybook/react-native-ui/src/Search.tsx	2026-10-20 08:50:06
++++ b/node_modules/@storybook/react-native-ui/src/Search.tsx	2026-10-20 08:50:06
+@@ -76,7 +76,7 @@
+   right: 8,
+   zIndex: 1,
+   color: theme.textMutedColor,
+-  cursor: 'pointer',
++  cursor: 'auto',
+   display: 'flex',
+   alignItems: 'center',
+   justifyContent: 'center',
+--- a/node_modules/@storybook/react-native-ui/src/SearchResults.tsx	2026-10-20 08:50:06
++++ b/node_modules/@storybook/react-native-ui/src/SearchResults.tsx	2026-10-20 08:50:07
+@@ -30,7 +30,7 @@
+   ({ theme, isHighlighted }) => ({
+     width: '100%',
+     border: 'none',
+-    cursor: 'pointer',
++    cursor: 'auto',
+     display: 'flex',
+     flexDirection: 'row',
+     alignItems: 'flex-start',

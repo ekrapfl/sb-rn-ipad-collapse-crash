@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "sb-rn-ipad-collapse-crash",
+    "slug": "sb-rn-ipad-collapse-crash",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.sbrnipadcrash"
+    },
+    "android": {
+      "package": "com.example.sbrnipadcrash"
+    }
+  }
+}
